@@ -1,0 +1,669 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Nunito:wght@200&family=PT+Sans&family=Roboto+Condensed:wght@300&family=Zeyada&display=swap');
+*{
+
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+
+}
+
+.cerrar{
+
+	transform: translateX(-100%);
+	transition: all 0.5s;
+	
+}
+
+
+img{
+
+	width: 50px;
+
+}
+
+h4{
+
+	font-family: monospace;
+	font-size: 16px;
+
+}
+
+.contenedor{
+
+	background: #c8ad8d;
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	opacity: 1;
+	display: flex;
+
+	z-index: 10000; 
+
+}
+
+.separador{
+
+	background: #ebe6ea;
+
+	width: 65%;
+	height: 65%;
+
+	margin: auto;
+	border-radius: 15px;
+
+	/*display: flex;
+	justify-content: center;
+	flex-wrap: wrap;*/
+
+
+}
+
+.titulo{
+
+	/*background: black;*/
+
+	width: 100%;
+	height: 30%;
+
+	color: 	;
+
+	padding: 5%;
+
+
+
+}
+
+.titulo_uno{
+
+	width: 100%;
+	height: 50%;
+
+	text-align: center;
+	margin-top: ;
+}
+
+ 	
+
+.titulo_dos{
+
+	width: 100%;
+	height: 50%;
+
+	text-align: center;
+
+}
+
+
+.titulo_dos_a{
+
+	font-family: 'Zeyada', cursive;
+	font-size: 25px;
+
+}
+
+.titulo_uno_a{
+
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+
+
+.problemas{
+
+	width: 100%;
+	height: 70%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+
+}
+
+.foto{
+
+	
+
+	position: relative;
+
+	width: 40%;
+	height: 100%;
+
+	color: white;
+
+}
+
+.lista{
+
+
+
+	position: relative;
+
+	width: 60%;
+	height: 100%;
+
+}
+
+.foto_imagen{
+
+	width: 100%;
+	height: 77%;
+
+}
+
+
+.fotito{
+
+	width: 270px;
+	position: relative;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 50%;
+	transform: translate(-50%);
+	padding: 8px;
+	border-radius: 8%;
+	margin-top: 7%;
+}
+
+
+.foto_nombre{
+
+	height: 23%;
+	width: 100%;
+
+	text-align: center;
+	color: #273a2d;
+
+}
+
+.danita{
+
+	font-family: cursive;
+
+}
+
+.propiedades{
+
+	height: 25%;
+
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+
+}
+
+
+.propiedades_titulo_uno{
+
+	position: relative;
+
+	margin: auto;
+
+	left: 50%;
+	transform: translate(-50%);
+
+	padding-left: 5px;
+	padding-right: 5px;
+
+	width: 75%;
+
+
+
+}
+
+
+.propiedades_titulo_dos{
+
+	position: relative;
+
+	margin: auto;
+
+	left: 50%;
+	transform: translate(-50%);
+
+	padding-left: 5px;
+	padding-right: 5px;
+
+	width: 75%;
+
+}
+
+.propiedades_titulo_dos_e{
+
+	position: relative;
+
+	margin: auto;
+
+	left: 64%;
+	transform: translate(-50%);
+
+	padding-left: 5px;
+	padding-right: 5px;
+
+	width: 75%;
+
+}
+
+
+
+
+.propiedades_imagen_uno{
+
+	position: relative;
+	width: 25%;
+
+	margin: auto;
+
+
+
+}
+
+.propiedades_imagen_dos{
+
+	position: relative;
+	width: 25%;
+
+	margin: auto;
+
+
+
+}
+
+.propiedades_titulo_a{
+
+
+
+}
+
+.img_uno{
+
+	
+	
+}
+
+.img_dos{
+
+	margin-left: 80%;
+	
+}
+
+.img1{
+
+	
+	
+
+	width: 70px;
+
+}
+
+.cuerpo{
+
+	width: 100%;
+	height: 100vh;
+
+	background: #e4c5c4;
+
+	width: 100%;
+	height: 100vh;
+
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+
+	padding: 25px;
+
+}
+
+.bloq_uno{
+
+
+
+	width: 45%;
+
+	padding: 20px;
+
+	height: 50%;
+
+
+}
+
+.bloq_dos{
+
+	padding: 20px;
+
+	width: 55%;
+	height: 50%;
+
+}
+
+.bloq_tres{
+
+	padding: 20px;
+
+	width: 30%;
+	height: 50%;
+
+
+}
+
+.bloq_cuatro{
+
+	padding: 20px;
+
+	width: 70%;
+	height: 50%;
+
+
+}
+
+.contenedor_bloq_uno{
+
+	background: #ebe6ea;
+
+	width: 100%;
+	height: 100%;
+
+	border-radius: 5px;
+
+}
+
+.contenedor_bloq_dos{
+
+	background: #ebe6ea;
+
+	width: 100%;
+	height: 100%;
+
+	border-radius: 5px;
+
+	
+
+
+}
+
+.contenedor_bloq_tres{
+
+	background: #ebe6ea;
+
+	width: 100%;
+	height: 100%;
+
+	border-radius: 5px;
+
+
+}
+
+.contenedor_bloq_cuatro{
+
+	background: #ebe6ea;
+
+	width: 100%;
+	height: 100%;
+
+	border-radius: 5px;
+
+
+
+
+}
+
+.contenedor_bloq_tres_titulo_uno{
+
+	color: darkred;
+
+}
+.contenedor_bloq_tres_titulo{
+
+	width: 100%;
+	height: 10%;
+
+	display: flex;
+	justify-content: center;
+
+	/*padding: 45px;*/
+
+	/*padding-top: 30px;*/
+
+
+}
+
+.contenedor_bloq_tres_imagen{
+
+	width: 100%;
+	height: 80%;
+
+	display: flex;
+	justify-content: center;
+
+	position: relative;
+}
+
+.img2{
+
+ 	width: 150px;
+
+}
+
+.a{
+
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+}
+
+.relleno{
+
+	width: 100%;
+	height: 10%;
+
+}
+
+.contenedor_bloq_tres_titulo_uno{
+
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 25px;
+
+}
+
+.contenedor_bloq_dos_imagen{
+
+
+	position: relative;
+	width: 40%;
+	height: 100%;
+
+	padding: 44px 37px;
+
+}
+
+.contenedor_bloq_dos_cita{
+
+	position: relative;
+	height: 100%;
+	width: 60%;
+
+}
+
+.contenedor_bloq_dos_separador{
+
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+
+}
+
+.contenedor_bloq_dos_cita_parrafo{
+
+	padding: 80px 0px;
+	padding-right: 20px;
+
+	color: #003785;
+
+}
+
+.contenedor_bloq_dos_imagen_separador{
+
+	
+
+}
+
+.img3{
+
+	border-radius: 10px;
+	width: 190px;
+
+}
+
+.contenedor_bloq_dos_cita_parrafo{
+
+	font-family: 'PT Sans', sans-serif;
+
+}
+
+
+.b{
+
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+
+	height: 87%;
+	width: 100%;
+
+}
+
+.titulo_cuatro{
+
+	width: 100%;
+	height: 13%;
+
+	text-align: center;
+
+	color: #6f7357;
+
+	padding: 7px;
+
+}
+
+.titulo_me{
+
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 25px;
+
+
+
+}
+
+.separador_bloque_cuatro{
+
+	width: 25%;
+	height: 100%;
+	padding: 2px 40px;
+
+}
+
+.contenedor_bloq_cuatro_imagen{
+
+	width: 100%;
+	height: 80%;
+
+}
+
+.contenedor_bloq_cuatro_parrafo{
+
+	width: 100%;
+	height: 20%;
+
+}
+
+.img_a{
+
+	width: 140px;
+	border-radius: 10px;
+	-webkit-transform: rotate(-2deg);
+
+}
+
+.img_b{
+
+	width: 170px;
+	border-radius: 10px;
+	-webkit-transform: rotate(8deg);
+
+}
+
+.img_c{
+
+	width: 180px;
+	border-radius: 10px;
+
+	-webkit-transform: rotate(-8deg);
+
+}
+
+.img_d{
+
+	width: 120px;
+	border-radius: 10px;
+
+	-webkit-transform: rotate(-5deg);
+
+}
+
+
+.si{
+
+ font-family: 'Nunito', sans-serif;
+
+}
+
+
+.contenedor_bloq_uno{
+
+	padding: 0px 5px;
+
+}
+
+.contenedor_bloq_uno_titulo{
+
+	font-family: 'Nunito', sans-serif;
+	font-size: 20px;
+	position: absolute;
+	top: 2%;
+
+	color: #273a2d;
+
+	background: #ebe6ea;
+	padding: 0px 20px;
+	border-radius: 5px;
+	
+
+}
+
+.contenedor_bloq_uno_dedicatoria{
+
+	padding: 5px;
+
+	
+
+}
+
+.p{
+
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 14px;
+
+}
+
+
